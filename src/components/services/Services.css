@@ -1,0 +1,217 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    height: 753px;
+    background: linear-gradient(to right, rgba(0,78, 134, .85) 0%, rgba(10, 65, 104, .85) 80%), url("../img/patrick-tomasso-89367-unsplash.png");
+}
+
+.services h3{
+    margin-top: 100px;
+    margin-left: 951px;
+    font-family:sans-serif, 'Bebas Neue';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: 20px;
+    text-transform: uppercase;
+
+    color: #FEE040;
+
+}
+
+.services h4{
+    margin-top: -7px;
+    margin-left: 443px;
+    font-family:sans-serif, 'Gilroy';
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    /* identical to box height, or 131% */
+
+    letter-spacing: -0.5px;
+
+    color: #FFFFFF;
+}
+
+.services__card {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 170px;
+}
+
+.services__item{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    width: 1740px;
+
+}
+.services__item::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
+}
+
+.services__card-item{
+    margin-left: 80px;
+}
+
+.services__card-item h5{
+    margin-top: 17px;
+    font-family:sans-serif, 'Proxima Nova';
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 24px;
+    /* identical to box height, or 117% */
+
+    letter-spacing: -0.5px;
+
+    color: #FFFFFF;
+}
+.services__card-item p{
+    margin-top: -25px;
+    font-family:sans-serif, 'Proxima Nova';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
+    width: 380px;
+    /* or 162% */
+
+    letter-spacing: -0.5px;
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
+.services__card-item span{
+    margin-top: 5px;
+    font-family:sans-serif, 'Bebas Neue';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: 7px;
+
+    color: #FEE040;
+}
+
+.waterline{
+    display: flex;
+    margin-top: 105px;
+    width: 574px;
+    height: 4px;
+    background: linear-gradient(270deg, #FEE040 0%, rgba(254, 224, 64, 0) 100%);
+}
+
+@media only screen and (max-width: 1700px) {
+    .services h3{
+        margin-left: 700px;
+    }
+    .services h4{
+        margin-left: 300px;
+        font-size: 24px;
+        width: 1100px;
+    }
+    .services__item{
+        margin-left: -155px;
+
+        width: 1420px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .services h3{
+        margin-left: 650px;
+    }
+    .services h4{
+        margin-left: 290px;
+        font-size: 22px;
+        width: 1000px;
+    }
+    .services__item{
+        margin-left: 85px;
+        width: 900px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .services h3{
+        margin-left: 550px;
+    }
+    .services h4{
+        margin-left: 170px;
+        font-size: 22px;
+        width: 1000px;
+    }
+    .services__item{
+        margin-left: -85px;
+        width: 900px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .services h3{
+        margin-left: 400px;
+    }
+    .services h4{
+        margin-left: 240px;
+        font-size: 22px;
+        width: 550px;
+    }
+    .services__item{
+        margin-left: 85px;
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .services h3{
+        margin-left: 300px;
+    }
+    .services h4{
+        margin-left: 140px;
+        font-size: 22px;
+        width: 550px;
+    }
+    .services__item{
+        margin-left: 5px;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .services h3{
+        margin-left: 150px;
+    }
+    .services h4{
+        margin-left: 140px;
+        font-size: 16px;
+        width: 380px;
+    }
+    .services__item{
+        margin-left: -105px;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .services h3{
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+    .services h4{
+
+        margin-left: 70px;
+        font-size: 16px;
+        width: 380px;
+    }
+    .services__item{
+        margin-left: -185px;
+        width: 500px;
+    }
+}
